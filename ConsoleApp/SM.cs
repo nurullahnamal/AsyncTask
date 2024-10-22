@@ -63,7 +63,7 @@ public struct SimpleStateMachine : IAsyncStateMachine
             {
                 awaiter.GetResult();
                 // doSomething()
-                Console.WriteLine("Task completed inside state machine.");
+                Console.WriteLine("Task completed inside state machine. ");
                 Console.WriteLine("Task completed inside state machine.");
                 Console.WriteLine("Task completed inside state machine.");
                 Console.WriteLine("Task completed inside state machine.");
